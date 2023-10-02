@@ -1,0 +1,19 @@
+mat-toolbar{
+  display: flex;
+  justify-content: space-between;
+}
+.body{
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 100vw;
+  mat-form-field{
+    width: 100%;
+  }
+  .table-container{
+    width: 100%;
+  }
+  .action{
+    display: flex;
+    gap: 5px;
+  }
+}

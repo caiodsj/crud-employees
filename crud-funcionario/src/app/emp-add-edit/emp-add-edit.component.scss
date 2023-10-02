@@ -1,0 +1,25 @@
+.row{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+
+  mat-form-field{
+    width: 100%;
+  }
+  mat-radio-button{
+    margin-left: 10px;
+  }
+}
+mat-dialog-actions{
+  margin: 10px;
+}
+.content{
+  margin-top: 10px;
+}
+.action{
+  padding: 0 25px 20px;
+
+  button{
+    flex: 1
+  }
+}
